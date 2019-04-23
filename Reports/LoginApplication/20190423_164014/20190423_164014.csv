@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginApplication,Chrome 73.0.3683.103,This is Login Application Suite.,2019-04-23 16:40:15,2019-04-23 16:40:53,37.995s,PASSED
+,,,,,,
+Test Cases/LoginApplication,Chrome 73.0.3683.103,,2019-04-23 16:40:15,2019-04-23 16:40:53,37.738s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 16:40:16,2019-04-23 16:40:19,3.249s,PASSED
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.103,,2019-04-23 16:40:19,2019-04-23 16:40:27,7.672s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 16:40:27,2019-04-23 16:40:30,3.024s,PASSED
+"setText(findTestObject(""input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.103,,2019-04-23 16:40:30,2019-04-23 16:40:30,0.137s,PASSED
+"setText(findTestObject(""input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.103,,2019-04-23 16:40:30,2019-04-23 16:40:30,0.112s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-23 16:40:30,2019-04-23 16:40:34,4.006s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 16:40:34,2019-04-23 16:40:34,0.139s,PASSED
+"click(findTestObject(""button_Login""))",Chrome 73.0.3683.103,,2019-04-23 16:40:34,2019-04-23 16:40:48,13.502s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-23 16:40:48,2019-04-23 16:40:53,5.003s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-23 16:40:53,2019-04-23 16:40:53,0.615s,PASSED
